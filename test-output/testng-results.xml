@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="81261" started-at="2019-01-07T16:39:58Z" finished-at="2019-01-07T16:41:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="81261" started-at="2019-01-07T16:39:58Z" finished-at="2019-01-07T16:41:19Z">
+      <class name="Practice.Day4.Robot1">
+        <test-method status="PASS" signature="BeforeMethod1()[pri:0, instance:Practice.Day4.Robot1@e25b2fe]" name="BeforeMethod1" is-config="true" duration-ms="41990" started-at="2019-01-07T22:09:58Z" finished-at="2019-01-07T22:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod1 -->
+        <test-method status="PASS" signature="upload()[pri:0, instance:Practice.Day4.Robot1@e25b2fe]" name="upload" duration-ms="37998" started-at="2019-01-07T22:10:40Z" finished-at="2019-01-07T22:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upload -->
+        <test-method status="PASS" signature="AfterMethod1()[pri:0, instance:Practice.Day4.Robot1@e25b2fe]" name="AfterMethod1" is-config="true" duration-ms="1173" started-at="2019-01-07T22:11:18Z" finished-at="2019-01-07T22:11:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod1 -->
+      </class> <!-- Practice.Day4.Robot1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

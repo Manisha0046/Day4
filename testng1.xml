@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" >
+	<!--  <groups>	
+				<run>	
+   					 <include name="Testing" />	
+        		</run>	
+    </groups> -->
+  
+    <classes>
+      <class name="Practice.Day4.SureFirePlugin"/>
+      <class name="Practice.Day4.Register"/>  
+      <class name="Practice.Day4.Grouping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
