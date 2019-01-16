@@ -40,7 +40,7 @@
   </dependency>
   </dependencies>
   <build>
-<plugins>   
+  <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
@@ -49,11 +49,9 @@
           <suiteXmlFiles>
             <suiteXmlFile>testng1.xml</suiteXmlFile>
           </suiteXmlFiles>
-           <!-- groups>Testing</groups> -->
-            <parallel>all</parallel>
-          <threadCount>5</threadCount>
         </configuration>
-      </plugin> 
+      </plugin>
 </plugins>
-</build>
+  </build>
+ 
 </project>
